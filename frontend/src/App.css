@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: rgb(255, 141, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 141, 115, 1) 0%,
+    rgba(41, 84, 92) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+strike {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#form-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#task-container {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+
+  margin-top: 100px;
+  margin-bottom: 60px;
+
+  justify-content: space-around;
+  align-items: flex-start;
+
+  border-radius: 8px;
+}
+
+#form-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  border-bottom: 1px solid #e9e9e9;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+.form-control {
+  margin-top: 5px;
+}
+
+.btn-warning {
+  background-color: coral;
+  color: white;
+  border-color: white;
+}
+
+.btn-warning:hover {
+  background-color: tomato;
+  color: white;
+  border-color: white;
+}
+
+.task-wrapper {
+  border-bottom: 1px solid white;
+  border-radius: 8px;
+  color: #686868;
+  background-color: white;
+  margin: 4px;
+  padding: 20px;
+  height: 80px;
+}
+
+.task-wrapper:hover {
+  background-color: whitesmoke;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-completed {
+  background-color: #ccffd1;
+}
+
+.task-completed:hover {
+  background-color: #a8ffb1;
+}
+
+.task-reminder {
+  border-left: 8px solid rgba(41, 84, 92);
+}
+
+.add-task {
+  background-color: rgba(41, 84, 92);
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
