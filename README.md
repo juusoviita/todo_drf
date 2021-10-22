@@ -1,6 +1,13 @@
 # todo_drf
 
-Todo app built using Django Rest Framework and React.
+Todo app built using Django Rest Framework and React. The user can:
+- add a new task,
+- edit an existing task,
+- delete a task,
+- mark task as completed,
+- toggle a reminder on a task, and
+-  hide/show completed tasks.
+
 Based on the Dennis Ivy video series and TraversyMedia's React Crash Course on YouTube, among other sources:
 
 - https://youtu.be/TmsD8QExZ84
