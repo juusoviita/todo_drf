@@ -9,7 +9,7 @@ Based on the Dennis Ivy video series and TraversyMedia's React Crash Course on Y
 - https://www.code-boost.com/video/ultimate-react-todo-list/
 
 Potential development ideas to implement:
+
 - add user to the Models, user registerstration, log in, and log out functionality
-- hide/show completed ones?
 - drag and drop?
 - change background using Unsplash API? (current background is default)
