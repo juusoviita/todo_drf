@@ -1,7 +1,7 @@
 # todo_drf
 
 Todo app built using Django Rest Framework and React.
-Based on the Dennis Ivy video series and TraversyMedia's React Crash Course on YouTube:
+Based on the Dennis Ivy video series and TraversyMedia's React Crash Course on YouTube, among other sources:
 
 - https://youtu.be/TmsD8QExZ84
 - https://youtu.be/W9BjUoot2Eo
